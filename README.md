@@ -1,41 +1,41 @@
-# 🚀 API de Gerenciamento de Tarefas
+# 🚀 Task Management API
 
-API REST para gerenciamento de tarefas (To-Do list) construída com Python e FastAPI como parte do meu aprendizado e portfólio de desenvolvimento back-end.
+A REST API for task management (To-Do list) built with Python and FastAPI as part of my learning journey and back-end development portfolio.
 
-## ✨ Funcionalidades Principais
+## ✨ Main Features
 
--   **Criar tarefas:** Adicione novas tarefas à sua lista.
--   **Listar tarefas:** Visualize todas as tarefas cadastradas.
--   (Em breve) Atualizar tarefas.
--   (Em breve) Deletar tarefas.
+-   **Create tasks:** Add new tasks to your list.
+-   **List tasks:** View all registered tasks.
+-   (Coming soon) Update tasks.
+-   (Coming soon) Delete tasks.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
--   **Linguagem:** Python 3.10+
+-   **Language:** Python 3.10+
 -   **Framework:** FastAPI
--   **Servidor:** Uvicorn
--   **Validação de Dados:** Pydantic
+-   **Server:** Uvicorn
+-   **Data Validation:** Pydantic
 
-## ▶️ Como Executar o Projeto
+## ▶️ How to Run the Project
 
-Siga os passos abaixo para executar o projeto localmente.
+Follow the steps below to run the project locally.
 
-### Pré-requisitos
+### Prerequisites
 
--   Python 3.10 ou superior
+-   Python 3.10 or higher
 -   Git
 
-### Instalação
+### Installation
 
-1.  Clone o repositório:
+1.  Clone the repository:
     ```bash
     git clone [https://github.com/JoaoHSL-11/api-tarefas-fastapi.git](https://github.com/JoaoHSL-11/api-tarefas-fastapi.git)
     ```
-2.  Navegue até o diretório do projeto:
+2.  Navigate to the project directory:
     ```bash
     cd api-tarefas-fastapi
     ```
-3.  Crie e ative um ambiente virtual:
+3.  Create and activate a virtual environment:
     ```bash
     # Linux/macOS
     python3 -m venv venv
@@ -45,23 +45,16 @@ Siga os passos abaixo para executar o projeto localmente.
     python -m venv venv
     .\venv\Scripts\activate
     ```
-4.  Instale as dependências:
+4.  Install the dependencies:
     ```bash
     pip install fastapi "uvicorn[standard]"
     ```
 
-### Rodando a Aplicação
+### Running the Application
 
-1.  Com o ambiente virtual ativado, inicie o servidor:
+1.  With the virtual environment activated, start the server:
     ```bash
     uvicorn main:app --reload
     ```
-2.  A API estará disponível em `http://127.0.0.1:8000`.
-3.  Acesse a documentação interativa em `http://127.0.0.1:8000/docs`.
-
-## 📝 Endpoints da API
-
-| Método | Endpoint     | Descrição                  |
-| ------ | ------------ | -------------------------- |
-| `GET`  | `/tarefas`   | Lista todas as tarefas     |
-| `POST` | `/tarefas`   | Cria uma nova tarefa       |
+2.  The API will be available at `http://12.0.0.1:8000`.
+3.  Access
