@@ -29,7 +29,7 @@ Siga os passos abaixo para executar o projeto localmente.
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/JoaoHSL-11/api-tarefas-fastapi.git](https://github.com/SEU-USUARIO/api-tarefas-fastapi.git)
+    git clone [https://github.com/JoaoHSL-11/api-tarefas-fastapi.git](https://github.com/JoaoHSL-11/api-tarefas-fastapi.git)
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
